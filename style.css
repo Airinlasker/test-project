@@ -1,0 +1,318 @@
+body,h1,h2,h3,h4,h5,h6,span,p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+/* header section */
+
+.j-header .navbar-brand{
+    font-size: 25px;
+    font-weight: 500;
+    transition: .3s;
+}
+.j-header .navbar-brand:hover{
+    color: rgb(199, 194, 194);
+}
+.j-header span{
+    display: inline-block;
+    background: #6278df;
+    color: #fff;
+    height: 40px;
+    width: 39px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 28px;
+}
+.jon-menu .nav-link{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.navbar .btn{
+    border: 2px solid #6278df;
+}
+.navbar a{
+    color: #6278df;
+}
+.navbar .btn:hover{
+    background: #6278df;
+    color: #fff;
+}
+
+/* slider section */
+
+.slider-section{
+    background: url(https://i.postimg.cc/sDhYRTw4/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;    
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+.slider-caption h4{
+    margin-bottom: 40px;
+}
+.slider-caption h2{
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+.slider-caption .btn{
+    padding: 15px 20px;
+   font-weight: bold;
+    font-size: 25px;
+    background: #5ba533;
+}
+.slider-caption .btn:hover{
+    background: #fff;
+    color: #6278df;
+    box-shadow: 3px 4px 40px 0 rgba(98, 120, 223, .9);
+    border: 1px solid #6278df;
+}
+.slider-caption .form-control {
+    padding: 18px 20px; 
+    font-size: 20px;
+    font-weight: 300;
+    border: 1px solid #5ba533; 
+
+} 
+.slider-caption .form-control:focus{
+    box-shadow: 3px 4px 40px 0 rgba(98, 120, 223, .9);
+    border: 1px solid #6278df;
+}
+.number-item .h2{
+    font-size: 55px;
+    font-weight: 600;
+}
+.number-item p{
+    font-size: 23px;
+}
+/* about section */
+.about-section{
+    background: #f7f9ff;
+}
+.about-t-left h1{
+    font-weight: 500;
+    color: #000;
+    font-size: 45px;
+}
+.about-t-left p{
+    font-size: 22px;
+}
+/* feature */
+.feature-item{
+    height: 300px;
+    box-shadow: 2.4px 4.33px 30px 0 rgba(64, 87, 191, .2);
+}
+.f-left-img{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.f-left-img img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -110px;
+    
+}
+.f-r-text{
+    width: 60%;
+    padding: 20px;
+}
+
+.f-r-text p{
+    font-size: 15px;
+}
+.feature-head h2{
+    font-size: 45px;
+    font-weight: 400;
+}
+.feature-head p{
+    font-size: 25px;
+}
+.prothflio-item a{
+    position: relative;
+    display: block;
+}
+.prothflio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba( 98, 120, 223, .6);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+
+}
+.prothflio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+.pricing-table{
+    background: #f7f9ff;
+}
+.pricing-item{
+    background: #fff;
+    box-shadow: 2.4px 4.33px 30px 0 rgba(64, 87, 191, .2);
+    padding: 50px;
+}
+.pricing-item h1{
+    font-size: 50px;
+}
+.pricing-item h2{}
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 60px;
+}
+.pricing-item ul li{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #777;
+
+}
+.pricing-item ul li span{
+    font-size: 30px;
+    font-weight: 600;
+    color: #6278df;
+    display: inline-block;
+    width: 50px;
+}
+.pricing-item a{
+   color: #6278df;
+   font-weight: bold;
+   font-size: 22px;
+   border: none;
+   box-shadow: 2.4px 4.33px 30px 0 rgba(64, 87, 191, .3);
+   padding: 17px 45px;
+   transition: .4s;
+}
+.pricing-item:hover a{
+    background: #6278df;
+    color: #fff;
+}
+.pricing-item a:hover{
+    background: #000;
+
+}
+.outhor-info{
+    width: 220px;
+    margin: auto;
+}
+.outhor-info img{
+    width: 80px;
+    margin-right: 20px;
+}
+.img-info{
+    text-align-last: left;
+    position: relative;
+    top: 10px;
+}
+.img-info h6{
+    font-size: 20px;
+    font-weight: 600;
+}
+.testimonial-section .tes-in{
+
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.testimonial-section span{
+    font-size: 70px;
+    color: rgb(221, 221, 221, .5);
+}
+/* about section */
+.about-botom-setion{
+    background: #f7f9ff;    
+}
+.about-b-item .btn{
+    font-weight: bold;
+    color: #777;
+}
+.about-b-item .btn:hover{
+    background: rgb(63, 62, 62);
+    color: #fff;
+}
+.about-b-item .card{}
+.about-b-item .card img{
+    width: 100px;
+    height: auto;
+    margin-top: -70px;
+}
+/* contact us */
+.contact-for-div .card{
+    box-shadow: 2.4px 4.33px 30px 0 rgba(64, 87, 191, .3);
+}
+.contact-for-div .card .form-control{
+   font-size: 20px;
+   font-weight: 300;
+   outline: none;
+   padding: 20px 10px;
+   box-shadow: 2.4px 4.33px 30px 0 rgba(64, 87, 191, .2);
+   border: 1px solid #fff;
+}
+.contact-for-div .card .form-control:focus{
+    box-shadow: 2.4px 4.33px 30px 0 rgba(64, 87, 191, .8);
+    border: 1px solid #6278df;
+}
+.contact-for-div .card .btn{
+   font-weight: 600;
+   font-size: 23px;
+   padding: 12px 20px;
+   background: #6278df;
+   border: 2px solid #fff;
+   transition: .4s;
+   border-radius: 10px;
+}
+.contact-for-div .card .btn:hover{
+    border: 2px  solid #6278df;
+    background: #fff;
+    color: #6278df;
+    box-shadow: 2.4px 4.33px 30px 0 rgba(64, 87, 191, .8);
+    
+}
+/* feature bottom */
+.feature-bottom .baton-section{
+    width: 420px;
+    margin: auto;
+}
+.feature-bottom .baton-section a{
+    padding: 17px 26px;
+    transition: .4s;
+    border: 2px solid #5ba533;
+
+}
+.feature-bottom .baton-section .b-2{
+        background: #5ba533;
+        color: #fff;
+        border: 1px solid #fff;
+}
+.feature-bottom .baton-section .b-2:hover{
+    background:  #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+/* footer */
+.footer{
+    background: #f7f9ff;
+}
+.footer p{
+    font-size: 22px;
+}
+
